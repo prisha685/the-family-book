@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            The Family Book        
+        </title>
+    </head>
+    <body>
+        <h1 class="text-capitalize page-header text-danger">
+            The family book
+        </h1>
+        <img id="collection" class="img-responsive"  src="https://images-na.ssl-images-amazon.com/images/I/51KNpAKei-L.jpg" >
+        <p id="familymember" class="text-capitalize text-danger">
+            The family book
+           </p>
+        <div>
+          <button type="button" onclick="next()">
+         Next
+          </button>
+        </div>
+        <script>
+      var reason=["Grandfather", "Grandmother", "Father", "Mother","Bigbrother","Myself"];
+var images=["https://classroomclipart.com/images/gallery/Clipart/Family/grandfather-with-cane-family-clipart-93017.jpg","https://thumbs.dreamstime.com/b/grandmother-portrait-cute-old-woman-bag-walking-stick-wearing-glasses-short-grey-hair-senior-lady-walk-grandma-86364329.jpg","https://webstockreview.net/images/family-clipart-dad-3.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLowxSzbnYdfhVQtWXdHKRtTYF5rYail9JhA&usqp=CAU","https://static3.depositphotos.com/1007989/243/v/600/depositphotos_2432109-stock-illustration-going-to-school.jpg","https://us.123rf.com/450wm/yupiramos/yupiramos1905/yupiramos190534185/122724605-stock-vector-little-girl-kid-character-vector-illustration-design.jpg?ver=6"];      
+var i=0;
+function next() {
+document.getElementById("familymember").innerHTML= familymember [i];
+  document.getElementById("collection").src= images[i];
+  i++;
+        </script>
+    </body>
+</html>

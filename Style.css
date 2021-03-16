@@ -1,0 +1,10 @@
+body { text-align: center;}
+#familymember { font-size:35px;}
+#collection  { 
+    border-color: chocolate;
+   border: 2px;
+   width: 480px ;
+   height: 430px;
+   padding: 10px;
+   border: 20px;
+}
